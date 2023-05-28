@@ -1,0 +1,15 @@
+.logo{
+    padding-left: 50px;
+}
+    
+.header .header-widget{
+    float: right;
+}
+
+.header .single-widget{
+    float: left;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 30px;
+    
+}
