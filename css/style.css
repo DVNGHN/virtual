@@ -1,18 +1,40 @@
+.logo{
+    
+    width: 100px;    
+}
 body{
     background-image: url(../images/background/technology-8028575_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-}
-.logo{
+
     
-    width: 100px;    
 }
 
+
+
+.header .single-widget{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 footer{
     text-align: center;
     margin-top: 10rem;
     color: white;
     font-size: 0.8rem;
+}
+
+@media(max-width: 915px)
+{
+
+
+/* .single-widget{
+    float: right;
+    font-size: 0.8rem;
+    padding-left: 8px;
+    padding-right: 8px;
+
+   }  */
 }
