@@ -1,22 +1,3 @@
-.container{
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    
-}
-.mision{
-    background-color: white;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-.vision{
-    background-color: white;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
 h2 {
     text-align: center;
 }
@@ -45,3 +26,58 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.servicios li:hover{
+    border-color:white;
+}
+
+.servicios li:active{
+    border-color:blue;
+}
+
+.servicios h2{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.servicios li:hover h2{
+    font-size: 33px;
+}
+
+.servicios-descripcion{
+    font-size: 18px;
+}
+
+.servicios-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.servicios .imgred{
+    width: 200px;
+    height: 100px;
+}
+
+
